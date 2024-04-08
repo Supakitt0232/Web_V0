@@ -104,7 +104,7 @@ class DemoNavbar extends React.Component {
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav 
-                     to='/#'
+                     to='/##'
                      tag={Link}
                      onClick={(e) => e.preventDefault()}
                     >
