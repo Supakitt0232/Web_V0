@@ -1,5 +1,3 @@
-
-//////////////// Testtttttttttttttttttttttttttttttttttttt ลองขึ้นกิคดู
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
