@@ -33,7 +33,7 @@ class Login extends React.Component {
 
                       <div className="text-center">
                         <Button className="my-4" color="primary" type="button">
-                          START
+                          START.
                         </Button>
                       </div>
                     </Form>
