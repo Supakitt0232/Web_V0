@@ -92,9 +92,9 @@ class DemoNavbar extends React.Component {
                 <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav 
-                     to='/home-base'
+                     to='/theory-page'
                      tag={Link}
-                     onClick={(e) => e.preventDefault()}
+                     
                     >
                       <i className="ni ni-ui-04 d-lg-none mr-1" />
                       <span className="nav-link-inner--text">DISC ทฤษฎีบุคลิกภาพ</span>

@@ -25,7 +25,7 @@ class Login extends React.Component {
               <span />
               <span />
             </div>
-            <Container className="pt-lg-1">
+            <Container className="pt-9 pb-9">
               <Row className="justify-content-center">
                 <Col lg="5">
                   <CardBody className="px-lg-5 py-lg-5 ">

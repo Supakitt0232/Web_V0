@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* Argon Design System React - v1.1.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
@@ -29,7 +12,9 @@ import Login from "views/examples/Login.js";
 import LoginTeacher from "views/examples/LoginTeacher.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
-import Start from "views/examples/Start";
+import Start from "views/examples/Start.js";
+import Theory from "views/examples/Theory.js";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -43,6 +28,7 @@ root.render(
       <Route path="/profile-page" exact element={<Profile />} />
       <Route path="/register-page" exact element={<Register />} />
       <Route path="/start-page" exact element={<Start />} />
+      <Route path="/theory-page" exact element={<Theory />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   </BrowserRouter>
