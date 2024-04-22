@@ -3,7 +3,7 @@ import { Button, CardBody, FormGroup, Form, Input, InputGroupAddon, InputGroupTe
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
-class Login extends React.Component {
+class Start extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
@@ -49,4 +49,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login;
+export default Start;
