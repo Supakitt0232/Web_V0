@@ -108,7 +108,7 @@ class Register extends React.Component {
                                 <i className="ni ni-hat-3" />
                               </InputGroupText>
                             </InputGroupAddon>
-                            <Input placeholder="ชื่อ" type="text" />
+                            <Input placeholder="ชื่อ" type="text"  id="fname" />
                           </InputGroup>
                         </FormGroup>
                         <FormGroup>
@@ -118,7 +118,7 @@ class Register extends React.Component {
                                 <i className="ni ni-hat-3" />
                               </InputGroupText>
                             </InputGroupAddon>
-                            <Input placeholder="นามสกุล" type="text" />
+                            <Input placeholder="นามสกุล" type="text"  id="lname" />
                           </InputGroup>
                         </FormGroup>
                         <hr/>
@@ -129,7 +129,7 @@ class Register extends React.Component {
                                 <i className="ni ni-circle-08" />
                               </InputGroupText>
                             </InputGroupAddon>
-                            <Input placeholder="ชื่อสำหรับเข้าใช้งาน (username)" type="text" />
+                            <Input placeholder="ชื่อสำหรับเข้าใช้งาน (username)" type="text"  id="_rname"  name="user_name" />
                           </InputGroup>
                         </FormGroup>
                         <FormGroup>
@@ -139,7 +139,7 @@ class Register extends React.Component {
                                 <i className="ni ni-email-83" />
                               </InputGroupText>
                             </InputGroupAddon>
-                            <Input placeholder="อีเมล" type="email" />
+                            <Input placeholder="อีเมล" type="email"  id="_remail" name="user_email" />
                           </InputGroup>
                         </FormGroup>
                         <FormGroup>
@@ -153,23 +153,12 @@ class Register extends React.Component {
                               placeholder="รหัสผ่าน"
                               type="password"
                               autoComplete="off"
+                              id="_rpass" 
+                              name="user_pass"
                             />
                           </InputGroup>
                         </FormGroup>
-                        <FormGroup>
-                          <InputGroup className="input-group-alternative">
-                            <InputGroupAddon addonType="prepend">
-                              <InputGroupText>
-                                <i className="ni ni-lock-circle-open" />
-                              </InputGroupText>
-                            </InputGroupAddon>
-                            <Input
-                              placeholder="ยืนยันรหัสผ่านอีกครั้ง"
-                              type="password"
-                              autoComplete="off"
-                            />
-                          </InputGroup>
-                        </FormGroup>
+                        
                         {/* <div className="text-muted font-italic">
                           <small>
                             password strength:{" "}
@@ -181,13 +170,14 @@ class Register extends React.Component {
               
                         <div className="text-center">
                           <Button
-                            className="my-4"
+                            class="btn btn-success"
                             color="primary"
-                            type="button"
-                            
+                            type="button" 
                           >
                             สร้างบัญชีของคุณ
                           </Button>
+
+
                         </div>
                       </Form>
                     </CardBody>
