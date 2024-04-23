@@ -47,16 +47,16 @@ class Carousel extends React.Component {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="6">
                 <h1 className="text-white font-weight-light">
-                  DISC ทฤษฎีบุคลิกภาพที่ควรรู้
+                  DISC หลักการบุคลิกภาพในรูปแบบของสัตว์ 4 ทิศที่ต้องรู้
                 </h1>
                 <p className="lead text-mute  mt-4">
-                รู้จักตัวตนและบุคลิกตัวเองในรูปแบบของสัตว์ทั้ง 4 ประเภท พร้อมทั้งประเมินตนเองด้วย Quiz<br/> 
+                รู้จักตัวตนและบุคลิกตัวเองในรูปแบบของสัตว์ทั้ง 4 ทิศ พร้อมทำแบบทดสอบเพื่อวัดบุคลิกภาพว่าอยู่ในรูปแบบสัตว์ชนิดใด<br/> 
                 </p>
                 <Button
                   className="btn-white mt-1 "
                   color="default"
-                  href="http://localhost:3000/home-base"
-                  onClick={(e) => e.preventDefault()}
+                  href="http://localhost:3001/theory"
+                  
                 >
                   อ่านเพิ่มเติม
                 </Button>

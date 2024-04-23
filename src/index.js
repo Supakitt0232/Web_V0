@@ -24,7 +24,7 @@ import "assets/vendor/font-awesome/css/font-awesome.min.css";
 import "assets/scss/argon-design-system-react.scss?v1.1.0";
 
 import Index from "views/Index.js";
-import Landing from "views/examples/Landing.js";
+import Theory from "views/examples/Theory.js"
 import Login from "views/examples/Login.js";
 import LoginTeacher from "views/examples/LoginTeacher.js";
 import Profile from "views/examples/Profile.js";
@@ -38,7 +38,7 @@ root.render(
       <Route path="/" exact element={<Index />} />
       <Route path="/login-page" exact element={<Login />} />
       <Route path="/login-teacher" exact element={<LoginTeacher/>}/>
-      <Route path="/home-base" exact element={<Landing />} />
+      <Route path="/theory" exact element={<Theory />} />
       <Route path="/profile-page" exact element={<Profile />} />
       <Route path="/register-page" exact element={<Register />} />
       <Route path="*" element={<Navigate to="/" replace />} />
