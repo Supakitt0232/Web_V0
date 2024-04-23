@@ -13,7 +13,8 @@ import LoginTeacher from "views/examples/LoginTeacher.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
 import Start from "views/examples/Start.js";
-import Theory from "views/examples/Theory.js";
+// import Theory from "views/examples/Theory.js";0.
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
