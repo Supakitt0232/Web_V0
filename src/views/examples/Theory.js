@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import {
     Badge,
     Button,
@@ -14,12 +13,12 @@ import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
 class Theory extends React.Component {
-    state = {};
-    componentDidMount() {
-        document.documentElement.scrollTop = 0;
-        document.scrollingElement.scrollTop = 0;
-        this.refs.main.scrollTop = 0;
-    }
+    // state = {};
+    // componentDidMount() {
+    //     document.documentElement.scrollTop = 0;
+    //     document.scrollingElement.scrollTop = 0;
+    //     this.refs.main.scrollTop = 0;
+    // }
 
     render() {
         return (
@@ -27,7 +26,6 @@ class Theory extends React.Component {
                 <DemoNavbar />
                 <main ref="main">
                     <div className="position-relative">
-                        {/* shape Hero */}
                         <section className="section section-lg section-shaped pb-250">
                             <div className="shape shape-style-1 shape-default">
                                 <span />
