@@ -13,8 +13,11 @@ import LoginTeacher from "views/examples/LoginTeacher.js";
 import Profile from "views/examples/Profile.js";
 import Register from "views/examples/Register.js";
 import Start from "views/examples/Start.js";
+<<<<<<< HEAD
 // import Theory from "views/examples/Theory.js";0.
 
+=======
+>>>>>>> f24d6304632487e3a80ee74fc42367dd6306e241
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -29,7 +32,6 @@ root.render(
       <Route path="/profile-page" exact element={<Profile />} />
       <Route path="/register-page" exact element={<Register />} />
       <Route path="/start-page" exact element={<Start />} />
-      <Route path="/theory-page" exact element={<Theory />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   </BrowserRouter>
