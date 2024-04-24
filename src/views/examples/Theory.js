@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 import React from "react";
 
 
@@ -368,5 +367,3 @@ class Theory extends React.Component {
     }
 }
 export default Theory;
-=======
->>>>>>> Stashed changes
