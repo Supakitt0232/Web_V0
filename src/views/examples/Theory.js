@@ -66,7 +66,7 @@ class Theory extends React.Component {
                                         <img
                                             alt="..."
                                             className="img-fluid"
-                                            src={require("assets/img/theme/bull.jpg")}
+                                            src={require("assets/img/small/1.png")}
                                         />
                                     </Col>
                                     <Col className="order-md-1 " md="6">
@@ -140,7 +140,7 @@ class Theory extends React.Component {
                                         <img
                                             alt="..."
                                             className="img-fluid"
-                                            src={require("assets/img/theme/bull.jpg")}
+                                            src={require("assets/img/small/2.png")}
                                         />
                                     </Col>
                                     <Col className="order-md-1 " md="6">
@@ -214,7 +214,7 @@ class Theory extends React.Component {
                                         <img
                                             alt="..."
                                             className="img-fluid"
-                                            src={require("assets/img/theme/bull.jpg")}
+                                            src={require("assets/img/small/3.png")}
                                         />
                                     </Col>
                                     <Col className="order-md-1 " md="6">
@@ -288,7 +288,7 @@ class Theory extends React.Component {
                                         <img
                                             alt="..."
                                             className="img-fluid"
-                                            src={require("assets/img/theme/bull.jpg")}
+                                            src={require("assets/img/small/4.png")}
                                         />
                                     </Col>
                                     <Col className="order-md-1 " md="6">
