@@ -21,14 +21,40 @@ import {
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
 
+
 class Login extends React.Component {
   componentDidMount() {
     document.documentElement.scrollTop = 0;
     document.scrollingElement.scrollTop = 0;
     this.refs.main.scrollTop = 0;
   }
+
   render() {
-    return (
+    const handleSubmit = (event) => {
+      event.preventDefault()
+      const data = new FormData()
+      const jsonData = {
+        username : data.get('username'),
+        password : data.get('password')
+      }
+
+      fetch('http://localhost:3333/login',{
+        method : 'POST',
+        headers: {
+          'Content-Type' : 'application/json',
+        },
+        body:JSON.stringify(jsonData),
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Success',data)
+      })
+      .catch((error) => {
+        console.error('Error',error)
+      })
+    }
+    
+  return(
       <>
         <DemoNavbar />
         <main ref="main">
@@ -108,6 +134,7 @@ class Login extends React.Component {
                             className="my-4"
                             color="primary"
                             type="button"
+                            onClick={handleSubmit}
                           >
                             เข้าสู่ระบบ
                           </Button>
