@@ -4,25 +4,25 @@ import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 //กำหนดรูปภาพได้
 const items = [
   {
-    src: require("assets/img/small/1.png"),
+    src: require("assets/img/small/1.กระทิง.png"),
     altText: "",
     caption: "",
     header: "",
   },
   {
-    src: require("assets/img/small/2.png"),
+    src: require("assets/img/small/2.อินทรี.png"),
     altText: "",
     caption: "",
     header: "",
   },
   {
-    src: require("assets/img/small/3.png"),
+    src: require("assets/img/small/3.หนู.png"),
     altText: "",
     caption: "",
     header: "",
   },
   {
-    src: require("assets/img/small/4.png"),
+    src: require("assets/img/small/4.หมี.png"),
     altText: "",
     caption: "",
     header: "",
